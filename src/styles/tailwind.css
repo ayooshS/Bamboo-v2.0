@@ -13,7 +13,7 @@
     :root {
         /* ---------------------------------------- */
         /*               BRAND COLORS              */
-        /* ---------------------------------------- */
+        /* -------------text-on-action--------------------------- */
 
         /* -- Brand - Sky Colors -- */
         --color-sky-100: #E6F3FF;
@@ -261,24 +261,24 @@
         /* ---------------------------------------- */
 
         /* -- Mapped: Text -- */
-        --text-primary: var(--alias-neutral-1100-dark);
-        --text-secondary: var(--alias-neutral-800-dark);
-        --text-tertiary: var(--alias-neutral-default-dark);
-        --text-action: var(--alias-primary-default-dark);
-        --text-action-hover: var(--alias-primary-400-dark);
-        --text-action-press: var(--alias-primary-800-dark);
-        --text-disabled: var(--alias-neutral-default-dark);
-        --text-information: var(--alias-information-default-dark);
-        --text-success: var(--alias-success-default-dark);
-        --text-warning: var(--alias-warning-default-dark);
-        --text-error: var(--alias-error-default-dark);
-        --text-on-action: var(--alias-neutral-black-dark);
-        --text-on-hover: var(--alias-primary-100-dark);
-        --text-on-disable: var(--alias-neutral-500-dark);
-        --text-on-press: var(--alias-neutral-black-dark);
-        --text-on-action-danger: var(--alias-error-default-dark);
-        --text-on-action-danger-hover: var(--alias-error-400-dark);
-        --text-on-action-danger-press: var(--alias-error-800-dark);
+        --text-primary: var(--alias-neutral-1100-light);
+        --text-secondary: var(--alias-neutral-800-light);
+        --text-tertiary: var(--alias-neutral-default-light);
+        --text-action: var(--alias-primary-default-light);
+        --text-action-hover: var(--alias-primary-400-light);
+        --text-action-press: var(--alias-primary-800-light);
+        --text-disabled: var(--alias-neutral-default-light);
+        --text-information: var(--alias-information-default-light);
+        --text-success: var(--alias-success-default-light);
+        --text-warning: var(--alias-warning-default-light);
+        --text-error: var(--alias-error-default-light);
+        --text-on-action: var(--alias-neutral-white-light);
+        --text-on-hover: var(--alias-primary-100-light);
+        --text-on-disable: var(--alias-neutral-500-light);
+        --text-on-press: var(--alias-neutral-white-light);
+        --text-on-action-danger: var(--alias-error-default-light);
+        --text-on-action-danger-hover: var(--alias-error-400-light);
+        --text-on-action-danger-press: var(--alias-error-800-light);
 
         /* -- Mapped: Surface -- */
         --surface-page: var(--alias-neutral-white-light);
@@ -303,7 +303,8 @@
         --icon-secondary: var(--alias-neutral-800-light);
         --icon-tertiary: var(--alias-neutral-default-light);
         --icon-disabled: var(--alias-neutral-default-light);
-        --icon-information: var(--alias-information-default-light) --icon-success: var(--alias-success-default-light);
+        --icon-information: var(--alias-information-default-light) 
+        --icon-success: var(--alias-success-default-light);
         --icon-warning: var(--alias-warning-default-light);
         --icon-error: var(--alias-error-default-light);
         --icon-action-primary: var(--alias-neutral-white-light);
